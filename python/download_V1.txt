@@ -1,0 +1,122 @@
+import tkinter as tk
+from tkinter import ttk
+from tkinter import filedialog
+from pytube import YouTube, Playlist
+from moviepy.video.io.VideoFileClip import VideoFileClip
+import os
+
+def choose_directory():
+    download_directory.set(filedialog.askdirectory())
+
+def choose_playlist_directory():
+    playlist_directory.set(filedialog.askdirectory())
+
+def choose_file():
+    file_path = filedialog.askopenfilename()
+    with open(file_path, "r") as f:
+        urls = f.readlines()
+        url_entry.delete("1.0", tk.END)
+        url_entry.insert(tk.END, "\n".join(urls))
+
+def download():
+    video_urls = url_entry.get("1.0", tk.END).splitlines()
+    if playlist_var.get():  # Download a playlist
+        playlist = Playlist(video_urls[0].strip(), on_progress_callback=show_progress)
+        if not os.path.exists(playlist_directory.get()):
+            os.makedirs(playlist_directory.get())
+        for i, video in enumerate(playlist.videos):
+            video_title = video.title
+            if len(video_title) > 50:
+                video_title = video_title[:50] + "..."
+            if file_type.get() == "mp3":
+                stream = video.streams.filter(only_audio=True).first()
+                out_file = os.path.join(playlist_directory.get(), "{}.mp3".format(video_title))
+                stream.download(output_path=playlist_directory.get(), filename=video_title)
+                base, ext = os.path.splitext(out_file)
+                new_file = base + '.mp3'
+                os.rename(out_file, new_file)
+            elif file_type.get() == "mp4":
+                stream = video.streams.first()
+                out_file = os.path.join(playlist_directory.get(), "{}.mp4".format(video_title))
+                status_label.config(text="Downloading {} ({}/{})...".format(playlist.title, i+1, len(playlist)))
+                stream.download(output_path=playlist_directory.get(), filename=video_title)
+                clip = VideoFileClip(out_file)
+                clip.write_videofile(os.path.splitext(out_file)[0] + ".mp4")
+                clip.close()
+                os.remove(out_file)
+        status_label.config(text="Download complete!")
+        progress_label.config(text="")
+        progress_bar['value'] = 0
+        popup = tk.Toplevel(root)
+        popup.geometry("300x100")
+        popup.title("Download completed!")
+        popup_label = tk.Label(popup, text="Download complete!")
+	popup_label.pack(pady=20)
+	ok_button = tk.Button(popup, text="OK", command=popup.destroy)
+	ok_button.pack()
+else:  # Download a single video
+    for i, url in enumerate(video_urls):
+        try:
+            yt = YouTube(url, on_progress_callback=show_progress)
+            video_title = yt.title
+            if len(video_title) > 50:
+                video_title = video_title[:50] + "..."
+            if file_type.get() == "mp3":
+                stream = yt.streams.filter(only_audio=True).first()
+                out_file = os.path.join(download_directory.get(), "{}.mp3".format(video_title))
+                stream.download(output_path=download_directory.get(), filename=video_title)
+                base, ext = os.path.splitext(out_file)
+                new_file = base + '.mp3'
+                os.rename(out_file, new_file)
+            elif file_type.get() == "mp4":
+                stream = yt.streams.first()
+                out_file = os.path.join(download_directory.get(), "{}.mp4".format(video_title))
+                status_label.config(text="Downloading {} ({}/{})...".format(video_title, i+1, len(video_urls)))
+                stream.download(output_path=download_directory.get(), filename=video_title)
+                clip = VideoFileClip(out_file)
+                clip.write_videofile(os.path.splitext(out_file)[0] + ".mp4")
+                clip.close()
+                os.remove(out_file)
+        except Exception as e:
+            status_label.config(text="Error downloading video at URL {}: {}".format(url, str(e)))
+    status_label.config(text="Download complete!")
+    progress_label.config(text="")
+    progress_bar['value'] = 0
+    popup = tk.Toplevel(root)
+    popup.geometry("300x100")
+    popup.title("Download completed!")
+    popup_label = tk.Label(popup, text="Download complete!")
+    popup_label.pack(pady=20)
+    ok_button = tk.Button(popup, text="OK", command=popup.destroy)
+    ok_button.pack()
+
+
+def show_progress(stream, chunk, bytes_remaining):
+size = stream.filesize
+downloaded = size - bytes_remaining
+percent = (downloaded / size) * 100
+progress_bar['value'] = percent
+progress_label.config(text="{:00.0f}% downloaded".format(percent))
+
+root = tk.Tk()
+root.title("YouTube Downloader")
+
+
+download_directory = tk.StringVar()
+download_directory.set(os.getcwd())
+playlist_directory = tk.StringVar()
+
+
+main_frame = ttk.Frame(root, padding="30 15")
+main_frame.grid(column=0, row=0, sticky="nswe")
+root.columnconfigure(0, weight=1)
+root.rowconfigure(0, weight=1)
+
+
+download_label = ttk.Label(main_frame, text="Choose download directory:")
+download_label.grid(column=0, row=2, sticky="w", pady=5)
+download_button = ttk.Button(main_frame, text="Choose directory", command=choose_directory)
+download_button.grid(column=1, row=2, sticky="w")
+
+
+

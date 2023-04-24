@@ -1,0 +1,73 @@
+import tkinter as tk
+from tkinter import ttk
+from tkinter import filedialog
+from pytube import YouTube
+from moviepy.video.io.VideoFileClip import VideoFileClip
+import os
+
+def choose_directory():
+    download_directory.set(filedialog.askdirectory())
+
+def choose_file():
+    file_path = filedialog.askopenfilename()
+    with open(file_path, "r") as f:
+        urls = f.readlines()
+        url_entry.delete("1.0", tk.END)
+        url_entry.insert(tk.END, "\n".join(urls))
+
+def download():
+    video_urls = url_entry.get("1.0", tk.END).splitlines()
+    for video_url in video_urls:
+        yt = YouTube(video_url.strip(), on_progress_callback=show_progress)
+        if file_type.get() == "mp3":
+            stream = yt.streams.filter(only_audio=True).first()
+            out_file = stream.download(output_path=download_directory.get())
+            base, ext = os.path.splitext(out_file)
+            new_file = base + '.mp3'
+            os.rename(out_file, new_file)
+        elif file_type.get() == "mp4":
+            stream = yt.streams.first()
+            out_file = stream.download(output_path=download_directory.get())
+            status_label.config(text="Converting to MP4...")
+            clip = VideoFileClip(out_file)
+            clip.write_videofile(os.path.splitext(out_file)[0] + ".mp4")
+            clip.close()
+            os.remove(out_file)
+        status_label.config(text="Download complete!")
+
+def show_progress(stream, chunk, bytes_remaining):
+    size = stream.filesize
+    progress = (float(abs(bytes_remaining-size)/size)) * 100.0
+    progress_label.config(text="Downloading...{:.1f}%".format(progress))
+    progress_bar['value'] = progress
+    root.update_idletasks()
+
+root = tk.Tk()
+root.title("YouTube Downloader")
+root.geometry("500x400")
+root.resizable(False, False)
+root.configure(bg="#1c1c1c")
+
+# Create GUI elements
+url_label = tk.Label(root, text="Video URLs (one per line) or choose a file:", font=("Helvetica", 14), fg="white", bg="#1c1c1c")
+url_label.pack(pady=(20, 5), padx=10, anchor="w")
+url_entry = tk.Text(root, height=5, width=50, font=("Helvetica", 12))
+url_entry.pack(padx=10, pady=5)
+
+file_frame = tk.Frame(root, bg="#1c1c1c")
+file_frame.pack(pady=5, padx=10, anchor="w")
+
+file_button = tk.Button(file_frame, text="Choose file", font=("Helvetica", 10), bg="#008CBA", fg="white", activebackground="#008CBA", activeforeground="white", relief="flat", command=choose_file)
+file_button.pack(side="left", padx=(0, 10))
+
+file_type_label = tk.Label(file_frame, text="File type:", font=("Helvetica", 14), fg="white", bg="#1c1c1c")
+file_type_label.pack(side="left")
+
+file_type = ttk.Combobox(root, values=["mp3", "mp4"], font=("Helvetica", 12))
+file_type.current(0)
+file_type.pack(padx=10, pady=5)
+
+directory_frame = tk.Frame(root, bg="#1c1c1c")
+directory_frame.pack(pady=5, padx=10, anchor="w")
+
+directory_button = tk.Button(directory_frame,
