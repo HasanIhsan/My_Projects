@@ -1,0 +1,2 @@
+A binary search tree (BST) is a sorted binary tree, where we can easily search for any key using the binary search algorithm. 
+To sort the BST, it has to have the following properties: The node's left subtree contains only a key that's smaller than the node's key
