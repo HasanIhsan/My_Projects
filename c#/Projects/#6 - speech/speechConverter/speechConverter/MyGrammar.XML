@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" xml:lang="en-US" root="root" version="1.0">
+  <rule id="root">
+    <one-of>
+      <item>Hello</item>
+      <item>Goodbye</item>
+    </one-of>
+  </rule>
+</grammar>

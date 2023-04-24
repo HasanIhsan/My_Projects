@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Project2/1.0.0": {
+        "dependencies": {
+          "DocumentBuilderLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Project2.dll": {}
+        }
+      },
+      "DocumentBuilderLibrary/1.0.0": {
+        "runtime": {
+          "DocumentBuilderLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentBuilderLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

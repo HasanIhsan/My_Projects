@@ -1,0 +1,6 @@
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 2\Project2\Project2\DocumentBuilderLibrary\bin\Debug\DocumentBuilderLibrary.dll
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 2\Project2\Project2\DocumentBuilderLibrary\bin\Debug\DocumentBuilderLibrary.pdb
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 2\Project2\Project2\DocumentBuilderLibrary\obj\Debug\DocumentBuilderLibrary.csproj.AssemblyReference.cache
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 2\Project2\Project2\DocumentBuilderLibrary\obj\Debug\DocumentBuilderLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 2\Project2\Project2\DocumentBuilderLibrary\obj\Debug\DocumentBuilderLibrary.dll
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 2\Project2\Project2\DocumentBuilderLibrary\obj\Debug\DocumentBuilderLibrary.pdb

@@ -1,0 +1,9 @@
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\docs\Director.exe.config
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\docs\Director.exe
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\docs\Director.pdb
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.AssemblyReference.cache
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.CoreCompileInputs.cache
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.csproj.CopyComplete
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.exe
+C:\Users\Hassan Ihsan\Desktop\Fanshawe_work\term 6\part 1\Software Design\Projects\Project 1\INFO3137-Project1 - Starting Point\Director\obj\Debug\Director.pdb

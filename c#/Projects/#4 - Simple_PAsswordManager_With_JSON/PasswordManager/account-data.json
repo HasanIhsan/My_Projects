@@ -1,0 +1,47 @@
+[
+  {
+    "password": [
+      {
+        "value": "anyamazonpass_",
+        "strennum": 66,
+        "strentext": "strong",
+        "lastreset": "2022-05-25"
+      }
+    ],
+    "accountId": 1,
+    "Description": "AmazonCompany",
+    "userId": "Amazon_01",
+    "loginURL": "http://amazon.ca",
+    "accountnum": "0123-1234-123456"
+  },
+  {
+    "password": [
+      {
+        "value": "IsSpac3Cool",
+        "strennum": 73,
+        "strentext": "strong",
+        "lastreset": "2022-05-25"
+      }
+    ],
+    "accountId": 2,
+    "Description": "Facebook",
+    "userId": "FaceManCOOl",
+    "loginURL": "http://facebook.ca",
+    "accountnum": "3240-23456-234522"
+  },
+  {
+    "password": [
+      {
+        "value": "Twit!pass",
+        "strennum": 61,
+        "strentext": "strong",
+        "lastreset": "2022-05-25"
+      }
+    ],
+    "accountId": 3,
+    "Description": "Twitter",
+    "userId": "TwitterMaster",
+    "loginURL": "http://twitter.ca",
+    "accountnum": "3456-34523-13467"
+  }
+]

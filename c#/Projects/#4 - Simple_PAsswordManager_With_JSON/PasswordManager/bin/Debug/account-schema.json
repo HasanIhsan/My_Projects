@@ -1,0 +1,58 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for account information",
+  "type": "object",
+  "required": [ "Description", "userId", "password" ],
+
+  "properties": {
+    "Description": {
+      "description": "A description of the online account",
+      "type": "string"
+    },
+    "userId": {
+      "description": "User's identifier for loggin-in",
+      "type": "string"
+    },
+    "loginURL": {
+      "description": "web address of the account's login-in page",
+      "type": "string",
+      "format": "uri"
+    },
+    "accountNum": {
+      "description": "the account number for the users online account",
+      "type": "string"
+    },
+    "password": {
+      "description": "information related specifically to the password",
+      "type": "array",
+      "required": [ "value", "strengthNum", "strengthText" ],
+
+      "properties": {
+        "value": {
+          "description": "users password for loggin-in",
+          "type": "string"
+        },
+        "strengthNum": {
+          "description": "indicates how secure the password is",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "strengthText": {
+          "description": "indicates how secure the password is",
+          "type": "string",
+          "enum": [ "Very Weak", "Weak", "good", "strong", "very string" ]
+        },
+        "lastReset": {
+          "description": "date the password was last updated",
+          "type": "string"
+        }
+
+      }
+    }
+  },
+  "additionalItems": true
+} 
+
+
+
