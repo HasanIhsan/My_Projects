@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = speechConverter
-build_property.ProjectDir = C:\Users\ihsan\Desktop\Code_Stuff\c#\Projects\#6 - speech\speechConverter\speechConverter\
+build_property.ProjectDir = C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#6 - speech_SpeechRecognitionEngine\speechConverter\speechConverter\

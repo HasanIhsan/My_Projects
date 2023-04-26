@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nbi4QaDXq85jXwi+AObN2ak9HfinR/msXLnlkGHszF7mx+ESwZW86nHSsdunZhL3wgz2n/ERg4Eyr0SzDU9dDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#6 - speech_SpeechRecognitionEngine\\speach\\speachConverter\\speachConverter\\speachConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ihsan\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

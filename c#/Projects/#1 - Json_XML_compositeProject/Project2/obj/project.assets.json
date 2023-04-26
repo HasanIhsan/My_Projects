@@ -26,24 +26,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hassan Ihsan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ihsan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hassan Ihsan\\Desktop\\Fanshawe_work\\term 6\\part 1\\Software Design\\Projects\\Project 2\\Project2\\Project2\\Project2\\Project2.csproj",
+      "projectUniqueName": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#1 - Json_XML_compositeProject\\Project2\\Project2.csproj",
       "projectName": "Project2",
-      "projectPath": "C:\\Users\\Hassan Ihsan\\Desktop\\Fanshawe_work\\term 6\\part 1\\Software Design\\Projects\\Project 2\\Project2\\Project2\\Project2\\Project2.csproj",
-      "packagesPath": "C:\\Users\\Hassan Ihsan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hassan Ihsan\\Desktop\\Fanshawe_work\\term 6\\part 1\\Software Design\\Projects\\Project 2\\Project2\\Project2\\Project2\\obj\\",
+      "projectPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#1 - Json_XML_compositeProject\\Project2\\Project2.csproj",
+      "packagesPath": "C:\\Users\\ihsan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#1 - Json_XML_compositeProject\\Project2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Hassan Ihsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ihsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,8 +52,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Hassan Ihsan\\Desktop\\Fanshawe_work\\term 6\\part 1\\Software Design\\Projects\\Project 2\\Project2\\Project2\\DocumentBuilderLibrary\\DocumentBuilderLibrary.csproj": {
-              "projectPath": "C:\\Users\\Hassan Ihsan\\Desktop\\Fanshawe_work\\term 6\\part 1\\Software Design\\Projects\\Project 2\\Project2\\Project2\\DocumentBuilderLibrary\\DocumentBuilderLibrary.csproj"
+            "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#1 - Json_XML_compositeProject\\DocumentBuilderLibrary\\DocumentBuilderLibrary.csproj": {
+              "projectPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#1 - Json_XML_compositeProject\\DocumentBuilderLibrary\\DocumentBuilderLibrary.csproj"
             }
           }
         }
@@ -78,7 +73,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -87,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

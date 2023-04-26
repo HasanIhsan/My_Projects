@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\c#\\Projects\\#6 - speech\\speach\\speachConverter\\speachConverter\\speachConverter.csproj": {}
+    "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#6 - speech_SpeechRecognitionEngine\\speach\\speachConverter\\speachConverter\\speachConverter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\c#\\Projects\\#6 - speech\\speach\\speachConverter\\speachConverter\\speachConverter.csproj": {
+    "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#6 - speech_SpeechRecognitionEngine\\speach\\speachConverter\\speachConverter\\speachConverter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\c#\\Projects\\#6 - speech\\speach\\speachConverter\\speachConverter\\speachConverter.csproj",
+        "projectUniqueName": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#6 - speech_SpeechRecognitionEngine\\speach\\speachConverter\\speachConverter\\speachConverter.csproj",
         "projectName": "speachConverter",
-        "projectPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\c#\\Projects\\#6 - speech\\speach\\speachConverter\\speachConverter\\speachConverter.csproj",
+        "projectPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#6 - speech_SpeechRecognitionEngine\\speach\\speachConverter\\speachConverter\\speachConverter.csproj",
         "packagesPath": "C:\\Users\\ihsan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\c#\\Projects\\#6 - speech\\speach\\speachConverter\\speachConverter\\obj\\",
+        "outputPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#6 - speech_SpeechRecognitionEngine\\speach\\speachConverter\\speachConverter\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -39,17 +39,6 @@
               "version": "[7.0.0, )"
             }
           }
-        }
-      },
-      "runtimes": {
-        "win": {
-          "#import": []
-        },
-        "win-x64": {
-          "#import": []
-        },
-        "win-x86": {
-          "#import": []
         }
       }
     }
