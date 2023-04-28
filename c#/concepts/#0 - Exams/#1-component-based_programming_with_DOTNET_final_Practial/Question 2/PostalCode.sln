@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostalCodeClient", "PostalCodeClient\PostalCodeClient.csproj", "{4A29E248-0ADE-466B-99A3-35BF17583566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostalCodeLibrary", "PostalCodeLibrary\PostalCodeLibrary.csproj", "{4D3832B8-6FB8-4870-B66D-663738DFC602}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A29E248-0ADE-466B-99A3-35BF17583566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A29E248-0ADE-466B-99A3-35BF17583566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A29E248-0ADE-466B-99A3-35BF17583566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A29E248-0ADE-466B-99A3-35BF17583566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D3832B8-6FB8-4870-B66D-663738DFC602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3832B8-6FB8-4870-B66D-663738DFC602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3832B8-6FB8-4870-B66D-663738DFC602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3832B8-6FB8-4870-B66D-663738DFC602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA70BF49-D817-4839-9487-3523F2D294F1}
+	EndGlobalSection
+EndGlobal

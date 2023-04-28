@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CourseMarkClient/1.0.0": {
+        "dependencies": {
+          "CourseMarkLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CourseMarkClient.dll": {}
+        }
+      },
+      "CourseMarkLibrary/1.0.0": {
+        "runtime": {
+          "CourseMarkLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseMarkClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CourseMarkLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

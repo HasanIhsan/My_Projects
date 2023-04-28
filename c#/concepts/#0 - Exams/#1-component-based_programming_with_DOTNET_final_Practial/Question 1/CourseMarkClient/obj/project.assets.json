@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CourseMarkLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CourseMarkLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CourseMarkLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseMarkLibrary/1.0.0": {
+      "type": "project",
+      "path": "../CourseMarkLibrary/CourseMarkLibrary.csproj",
+      "msbuildProject": "../CourseMarkLibrary/CourseMarkLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CourseMarkLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ihsan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\quiz tutorials\\my-midterm\\Question 1\\CourseMarkClient\\CourseMarkClient.csproj",
+      "projectName": "CourseMarkClient",
+      "projectPath": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\quiz tutorials\\my-midterm\\Question 1\\CourseMarkClient\\CourseMarkClient.csproj",
+      "packagesPath": "C:\\Users\\ihsan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\quiz tutorials\\my-midterm\\Question 1\\CourseMarkClient\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ihsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\quiz tutorials\\my-midterm\\Question 1\\CourseMarkLibrary\\CourseMarkLibrary.csproj": {
+              "projectPath": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\quiz tutorials\\my-midterm\\Question 1\\CourseMarkLibrary\\CourseMarkLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

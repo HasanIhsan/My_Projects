@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PostalCodeLibrary</id>
+    <version>1.0.0</version>
+    <authors>PostalCodeLibrary</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="SoapFormatter" version="1.1.9" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\bin\Debug\net6.0\PostalCodeLibrary.dll" target="lib\net6.0\PostalCodeLibrary.dll" />
+  </files>
+</package>

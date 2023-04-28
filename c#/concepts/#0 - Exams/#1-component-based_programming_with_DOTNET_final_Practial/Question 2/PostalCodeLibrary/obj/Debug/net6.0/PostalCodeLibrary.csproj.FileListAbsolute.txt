@@ -1,0 +1,15 @@
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\bin\Debug\net6.0\PostalCodeLibrary.deps.json
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\bin\Debug\net6.0\PostalCodeLibrary.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\bin\Debug\net6.0\PostalCodeLibrary.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.AssemblyInfoInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.AssemblyInfo.cs
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\refint\PostalCodeLibrary.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\ref\PostalCodeLibrary.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\Interop.Microsoft.Office.Core.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Word.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 2\PostalCodeLibrary\obj\Debug\net6.0\PostalCodeLibrary.csproj.ResolveComReference.cache

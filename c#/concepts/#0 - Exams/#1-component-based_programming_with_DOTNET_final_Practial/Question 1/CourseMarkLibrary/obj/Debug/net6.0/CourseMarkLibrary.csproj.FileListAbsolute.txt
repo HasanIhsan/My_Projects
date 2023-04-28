@@ -1,0 +1,12 @@
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\bin\Debug\net6.0\CourseMarkLibrary.deps.json
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\bin\Debug\net6.0\CourseMarkLibrary.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\bin\Debug\net6.0\CourseMarkLibrary.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\CourseMarkLibrary.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\CourseMarkLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\CourseMarkLibrary.AssemblyInfoInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\CourseMarkLibrary.AssemblyInfo.cs
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\CourseMarkLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\CourseMarkLibrary.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\refint\CourseMarkLibrary.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\CourseMarkLibrary.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\quiz tutorials\my-midterm\Question 1\CourseMarkLibrary\obj\Debug\net6.0\ref\CourseMarkLibrary.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jg/qOSyov2SjHXXbg3EG2wcwNm9zBnCbMxgQIEOdq1ttwnzYwW4ecZd5of8EUeeGWZ6bYaEnedVMu63+8Z/IaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\quiz tutorials\\my-midterm\\Question 2\\PostalCodeClient\\PostalCodeClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ihsan\\.nuget\\packages\\soapformatter\\1.1.9\\soapformatter.1.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}
