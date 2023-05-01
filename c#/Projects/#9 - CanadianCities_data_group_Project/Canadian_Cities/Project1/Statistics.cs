@@ -56,7 +56,7 @@ namespace Project1
 
         public int? CalculateDistanceBetweenCities(CityInfo city1, CityInfo city2)
         {
-            string key = "AIzaSyBuWX6ELFtlNhqHk5EcKrmXWBdrmHeNm5A";
+            string key = "A_GOOGLE_API_KEY";
             string url = $"https://maps.googleapis.com/maps/api/distancematrix/json?destinations={city2.CityName.Replace(" ", "%20")}%2C{city2.Province}&origins={city1.CityName.Replace(" ", "%20")}%2C{city1.Province}&key={key}";
             int? distance = null;
             try
