@@ -1,0 +1,15 @@
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\bin\Debug\net6.0\Exercise7.exe
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\bin\Debug\net6.0\Exercise7.deps.json
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\bin\Debug\net6.0\Exercise7.runtimeconfig.json
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\bin\Debug\net6.0\Exercise7.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\bin\Debug\net6.0\Exercise7.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.AssemblyInfoInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.AssemblyInfo.cs
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\refint\Exercise7.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\Exercise7.genruntimeconfig.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 7\Exercise7\Exercise7\obj\Debug\net6.0\ref\Exercise7.dll

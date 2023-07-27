@@ -1,0 +1,15 @@
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\bin\Debug\net6.0\Exercise5.exe
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\bin\Debug\net6.0\Exercise5.deps.json
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\bin\Debug\net6.0\Exercise5.runtimeconfig.json
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\bin\Debug\net6.0\Exercise5.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\bin\Debug\net6.0\Exercise5.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.AssemblyInfoInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.AssemblyInfo.cs
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\refint\Exercise5.dll
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.pdb
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\Exercise5.genruntimeconfig.cache
+C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5101 - c# advanced toppics\Exercises\Exercise 5\Exercise\Exercise5\Exercise5\obj\Debug\net6.0\ref\Exercise5.dll
