@@ -1,3 +1,6 @@
+#Use two loops: The outer loop picks all the elements of arr2[] one by one. The inner loop linearly 
+# searches for the element picked by the outer loop. If all elements are found then return 1, else return 0.
+
 #python program to find wheather an array 
 # is subset of antoher array
 
@@ -34,9 +37,7 @@ if __name__ == "__main__":
     
     print("checking if array 1 is a subset of array 2")
     #Naive Approach to Find whether an array is subset of another array
-    print("\nNaive Approach to Find whether an array is subset of another array")
-    #Use two loops: The outer loop picks all the elements of arr2[] one by one. The inner loop linearly 
-    # searches for the element picked by the outer loop. If all elements are found then return 1, else return 0.
+    print("\nNaive Approach to Find whether an array is subset of another array") 
     print("\nUse two loops: The outer loop picks all the elements of arr2[] one by one. The inner loop linearly searches for the element picked by the outer loop. If all elements are found then return 1, else return 0.\n\n")
     if(isSubset(arr1, arr2, m, n)):
         print("arr2[] is subset of arr1 ")
