@@ -18,3 +18,23 @@ C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programmi
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest\New folder\DrawingGame\GameClient\obj\Debug\GameClient.exe
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest\New folder\DrawingGame\GameClient\obj\Debug\GameClient.pdb
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest\New folder\DrawingGame\GameClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\bin\Debug\GameClient.exe.config
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\bin\Debug\GameClient.exe
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\bin\Debug\GameClient.pdb
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\bin\Debug\GamerLib.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\bin\Debug\GamerLib.pdb
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.csproj.SuggestedBindingRedirects.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\MainWindow.g.cs
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\App.g.cs
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient_MarkupCompile.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient_MarkupCompile.lref
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\MainWindow.baml
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.g.resources
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.Properties.Resources.resources
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.csproj.GenerateResource.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.csproj.CopyComplete
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.exe
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameClient\obj\Debug\GameClient.pdb

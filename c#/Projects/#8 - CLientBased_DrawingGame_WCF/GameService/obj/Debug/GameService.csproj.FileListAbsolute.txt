@@ -14,3 +14,15 @@ C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programmi
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest-v3\New folder\DrawingGame\GameService\bin\Debug\GamerLib.dll
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest-v3\New folder\DrawingGame\GameService\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest-v3\New folder\DrawingGame\GameService\bin\Debug\GamerLib.pdb
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\bin\Debug\GameService.exe.config
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\bin\Debug\GameService.exe
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\bin\Debug\GameService.pdb
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\bin\Debug\GamerLib.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\bin\Debug\GamerLib.pdb
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\obj\Debug\GameService.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\obj\Debug\GameService.csproj.SuggestedBindingRedirects.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\obj\Debug\GameService.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\obj\Debug\GameService.csproj.CopyComplete
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\obj\Debug\GameService.exe
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GameService\obj\Debug\GameService.pdb

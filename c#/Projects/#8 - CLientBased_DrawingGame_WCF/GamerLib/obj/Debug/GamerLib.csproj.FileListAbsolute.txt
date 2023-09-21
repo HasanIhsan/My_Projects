@@ -6,3 +6,11 @@ C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programmi
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest\New folder\DrawingGame\GamerLib\obj\Debug\GamerLib.pdb
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest\New folder\DrawingGame\GamerLib\bin\Debug\Newtonsoft.Json.dll
 C:\Users\ihsan\Desktop\Fanshawe_work\term 7\INFO5060 - COmponent-based Programming with NET\projects\project 2\paintTest\New folder\DrawingGame\GamerLib\obj\Debug\GamerLib.csproj.CopyComplete
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\bin\Debug\GamerLib.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\bin\Debug\GamerLib.pdb
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\obj\Debug\GamerLib.csproj.AssemblyReference.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\obj\Debug\GamerLib.csproj.CoreCompileInputs.cache
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\obj\Debug\GamerLib.csproj.CopyComplete
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\obj\Debug\GamerLib.dll
+C:\Users\ihsan\Desktop\Code_Stuff\Programming\c#\Projects\#8 - CLientBased_DrawingGame_WCF\GamerLib\obj\Debug\GamerLib.pdb

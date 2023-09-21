@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t9gadsZnqKlvSp3yv4erbyq1h1ahvkmeASwYHjQR7SOgPhi0BzabW5rJHDq3+BxZxR8gcqCHLvogN2zNohnJ3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#8 - CLientBased_DrawingGame_WCF\\GamerLib\\GamerLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ihsan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

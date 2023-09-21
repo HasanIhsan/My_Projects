@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\projects\\project 2\\paintTest-v3\\New folder\\DrawingGame\\GamerLib\\GamerLib.csproj": {}
+    "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#8 - CLientBased_DrawingGame_WCF\\GamerLib\\GamerLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\projects\\project 2\\paintTest-v3\\New folder\\DrawingGame\\GamerLib\\GamerLib.csproj": {
+    "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#8 - CLientBased_DrawingGame_WCF\\GamerLib\\GamerLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\projects\\project 2\\paintTest-v3\\New folder\\DrawingGame\\GamerLib\\GamerLib.csproj",
+        "projectUniqueName": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#8 - CLientBased_DrawingGame_WCF\\GamerLib\\GamerLib.csproj",
         "projectName": "GamerLib",
-        "projectPath": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\projects\\project 2\\paintTest-v3\\New folder\\DrawingGame\\GamerLib\\GamerLib.csproj",
+        "projectPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#8 - CLientBased_DrawingGame_WCF\\GamerLib\\GamerLib.csproj",
         "packagesPath": "C:\\Users\\ihsan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ihsan\\Desktop\\Fanshawe_work\\term 7\\INFO5060 - COmponent-based Programming with NET\\projects\\project 2\\paintTest-v3\\New folder\\DrawingGame\\GamerLib\\obj\\",
+        "outputPath": "C:\\Users\\ihsan\\Desktop\\Code_Stuff\\Programming\\c#\\Projects\\#8 - CLientBased_DrawingGame_WCF\\GamerLib\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
