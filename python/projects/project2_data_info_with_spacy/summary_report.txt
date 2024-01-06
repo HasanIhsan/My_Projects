@@ -1,0 +1,5 @@
+tom.brady@gmail.com: $10,000.00 to Microsoft, $15,000.00 to Amazon
+bjohnson@sympatico.ca: $8,500.00 to Apple
+andy.average@gmail.com: $50.00 to Infotech, $10,000.00 to Amazon, $5,000.00 to Newcorp
+john.public@rogers.com: $11,200.00 to Microsoft
+Total Requests: $59,750.00

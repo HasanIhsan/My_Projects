@@ -1,0 +1,114 @@
+Sender: tom.brady@gmail.com
+Tokens:
+  Hi - POS: INTJ, Entity: 
+  Dave - POS: PROPN, Entity: PERSON
+  , - POS: PUNCT, Entity: 
+  Iâ€ - POS: PROPN, Entity: GPE
+  ™ - POS: X, Entity: 
+  d - POS: X, Entity: 
+  like - POS: VERB, Entity: 
+  to - POS: PART, Entity: 
+  invest - POS: VERB, Entity: 
+  $ - POS: SYM, Entity: 
+  10,000 - POS: NUM, Entity: MONEY
+  with - POS: ADP, Entity: 
+  Microsoft - POS: PROPN, Entity: ORG
+  and - POS: CCONJ, Entity: 
+  another - POS: DET, Entity: 
+  $ - POS: SYM, Entity: 
+  15,000 - POS: NUM, Entity: MONEY
+  with - POS: ADP, Entity: 
+  Amazon - POS: PROPN, Entity: ORG
+  . - POS: PUNCT, Entity: 
+  Thanks - POS: NOUN, Entity: 
+  , - POS: PUNCT, Entity: 
+  Tom - POS: PROPN, Entity: PERSON
+  . - POS: PUNCT, Entity: 
+<<End>>
+Sender: bjohnson@sympatico.ca
+Tokens:
+  As - POS: SCONJ, Entity: 
+  we - POS: PRON, Entity: 
+  discussed - POS: VERB, Entity: 
+  , - POS: PUNCT, Entity: 
+  letâ€ - POS: PROPN, Entity: 
+  ™ - POS: X, Entity: 
+  s - POS: NOUN, Entity: 
+  try - POS: VERB, Entity: 
+  $ - POS: SYM, Entity: 
+  8500 - POS: NUM, Entity: MONEY
+  on - POS: ADP, Entity: 
+  Apple - POS: PROPN, Entity: ORG
+  . - POS: PUNCT, Entity: 
+  Hopefully - POS: ADV, Entity: 
+  , - POS: PUNCT, Entity: 
+  thatâ€ - POS: PROPN, Entity: GPE
+  ™ - POS: PROPN, Entity: 
+  s - POS: PART, Entity: 
+  OK - POS: ADJ, Entity: 
+  . - POS: PUNCT, Entity: 
+  -Brooke - POS: NOUN, Entity: 
+<<End>>
+Sender: andy.average@gmail.com
+Tokens:
+  Edward - POS: PROPN, Entity: PERSON
+  , - POS: PUNCT, Entity: 
+  can - POS: AUX, Entity: 
+  you - POS: PRON, Entity: 
+  do - POS: VERB, Entity: 
+  $ - POS: SYM, Entity: MONEY
+  50 - POS: NUM, Entity: MONEY
+  thousand - POS: NUM, Entity: MONEY
+  to - POS: ADP, Entity: 
+  Infotech - POS: PROPN, Entity: ORG
+  Inc. - POS: PROPN, Entity: ORG
+  and - POS: CCONJ, Entity: 
+  another - POS: DET, Entity: 
+  $ - POS: SYM, Entity: 
+  10,000 - POS: NUM, Entity: MONEY
+  with - POS: ADP, Entity: 
+  Amazon - POS: PROPN, Entity: ORG
+  ? - POS: PUNCT, Entity: 
+  Also - POS: ADV, Entity: 
+  , - POS: PUNCT, Entity: 
+  letâ€ - POS: PROPN, Entity: 
+  ™ - POS: X, Entity: 
+  s - POS: NOUN, Entity: 
+  try - POS: VERB, Entity: 
+  just - POS: ADV, Entity: MONEY
+  $ - POS: SYM, Entity: MONEY
+  5000 - POS: NUM, Entity: MONEY
+  for - POS: ADP, Entity: 
+  Newcorp - POS: PROPN, Entity: ORG
+  stock - POS: NOUN, Entity: 
+  . - POS: PUNCT, Entity: 
+  Call - POS: VERB, Entity: 
+  me - POS: PRON, Entity: 
+  if - POS: SCONJ, Entity: 
+  you - POS: PRON, Entity: 
+  have - POS: VERB, Entity: 
+  any - POS: DET, Entity: 
+  questions - POS: NOUN, Entity: 
+  . - POS: PUNCT, Entity: 
+<<End>>
+Sender: john.public@rogers.com
+Tokens:
+  Iâ€ - POS: NOUN, Entity: 
+  ™ - POS: NOUN, Entity: 
+  ve - POS: AUX, Entity: 
+  finally - POS: ADV, Entity: 
+  decided - POS: VERB, Entity: 
+  on - POS: ADP, Entity: 
+  $ - POS: SYM, Entity: 
+  11,200 - POS: NUM, Entity: MONEY
+  with - POS: ADP, Entity: 
+  Microsoft - POS: PROPN, Entity: ORG
+  . - POS: PUNCT, Entity: 
+  Always - POS: ADV, Entity: 
+  liked - POS: VERB, Entity: 
+  Windows - POS: PROPN, Entity: ORG
+  . - POS: PUNCT, Entity: 
+  Regards - POS: NOUN, Entity: 
+  , - POS: PUNCT, Entity: 
+  John - POS: PROPN, Entity: PERSON
+<<End>>
