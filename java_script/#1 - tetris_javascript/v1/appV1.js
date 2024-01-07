@@ -1,15 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const gridContainer = document.querySelector('.grid');
-    const miniGridContainer = document.querySelector('.mini-grid');
-    const scoreDisplay = document.querySelector('#score');
-    const startBtn = document.querySelector('#start-button');
-    const width = 10;
-    const height = 20;
-    let squares = [];
-    let miniSquares = [];
-    let nextRandom = 0;
-    let timerId;
-    let score = 0;
+    const grid = document.querySelector('.grid')
+    let squares = Array.from(document.querySelectorAll('.grid div'))
+    const scoreDisplay = document.querySelector('#score')
+    const startBtn = document.querySelector('#start-button')
+    const width = 10
+    let nextRandom = 0
+    let timerId
+    let score = 0
 
     const colors = [
         'orange',
@@ -17,8 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'purple',
         'green',
         'blue'
-    ];
-
+    ]
     //The tertrominoes
     const lTetrimino = [
         [1, width+1, width*2+1, 2],
@@ -57,43 +53,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const theTetrominoes = [lTetrimino, zTetromino, tTetromino, oTetromino, iTetromino]
 
-    let currentPosition = 4;
-    let currentRotation = 0;
-    let random = Math.floor(Math.random() * theTetrominoes.length);
-    let current = theTetrominoes[random][currentRotation];
+    let currentPosition = 4
+    let currentRotation = 0
 
+    //randomly select a tertromino and its first rotations
+    let random = Math.floor(Math.random()*theTetrominoes.length)
+    let current = theTetrominoes[random][currentRotation]
+
+    //draw retromino
     function draw() {
+        //simply draws the given block
         current.forEach(index => {
-            const newIndex = currentPosition + index;
-            if (squares[newIndex]) {
-                squares[newIndex].classList.add('tetromino');
-                squares[newIndex].style.backgroundColor = colors[random];
-            }
-        });
+            squares[currentPosition + index].classList.add('tetromino')
+            squares[currentPosition + index].style.backgroundColor = colors[random]
+        })
     }
-    
+
+    //undraw the tetromino
     function undraw() {
+        //does the oppsite undraws the block
         current.forEach(index => {
-            const newIndex = currentPosition + index;
-            if (squares[newIndex]) {
-                squares[newIndex].classList.remove('tetromino');
-                squares[newIndex].style.backgroundColor = '';
-            }
-        });
+            squares[currentPosition + index].classList.remove('tetromino')
+            squares[currentPosition + index].style.backgroundColor = ''
+        })
     }
-    
-
-    function createGrid(container, squaresArray, rows, cols) {
-        for (let i = 0; i < rows * cols; i++) {
-            const square = document.createElement('div');
-            container.appendChild(square);
-            squaresArray.push(square);
-        }
-    }
-
-    createGrid(gridContainer, squares, height, width);
-    createGrid(miniGridContainer, miniSquares, 4, 4);
-
+      
     //make the tetromino move down every second
     //timerId = setInterval(moveDown, 1000)
 
@@ -122,32 +106,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     //freez function
-    // freeze function
     function freeze() {
-        const isAtBottom = current.some(index => (currentPosition + index + width >= width * height));
-        const isAtTaken = current.some(index => {
-            const targetIndex = currentPosition + index + width;
-            return targetIndex < squares.length && squares[targetIndex].classList.contains('taken');
-        });
-    
-        if (isAtBottom || isAtTaken) {
-            console.log("bottom");
-            current.forEach(index => squares[currentPosition + index].classList.add('taken'));
+        if(current.some(index => squares[currentPosition + index + width].classList.contains('taken'))) {
+            current.forEach(index => squares[currentPosition + index].classList.add('taken'))
 
-
-            // Start new block falling:
-            random = nextRandom;
-            nextRandom = Math.floor(Math.random() * theTetrominoes.length);
-            current = theTetrominoes[random][currentRotation];
-            currentPosition = 4;
-            draw();
-            displayShape();
-            addScore();
-            gameOver();
+            //start new block falling:
+            random = nextRandom
+            nextRandom = Math.floor(Math.random() * theTetrominoes.length)
+            current = theTetrominoes[random][currentRotation]
+            currentPosition = 4
+            draw()
+            displayShape()
+            addScore()
+            gameOver()
         }
     }
-    
-
 
 
     //move the block left, unless at the edge of gird or there is a blockage
@@ -252,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
                 const squareRemoved = squares.splice(i, width)
                 squares = squareRemoved.concat(squares)
-                squares.forEach(cell => gridContainer.appendChild(cell))
+                squares.forEach(cell => grid.appendChild(cell))
             }
         }
     }
