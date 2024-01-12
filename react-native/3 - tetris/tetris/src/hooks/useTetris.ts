@@ -1,35 +1,24 @@
-import { useCallback, useState } from "react";
-import { hasCollisions, useTetrisBoard } from "./useTetrisBoard";
+import { useCallback, useEffect, useState } from "react";
+import { getRandomBlock, hasCollisions, useTetrisBoard } from "./useTetrisBoard";
 import { useInterval } from "./useInterval";
 import { Block, BlockShape, BoardShape } from "../types";
 
 enum TickSpeed {
     Normal = 800,
     Sliding = 100,
+    Fast = 50,
 }
 
 export function useTetris() {
     const [isPlaying, setIsPlaying] = useState(false);
     const [tickSpeed, setTickSpeed] = useState<TickSpeed | null>(null);
     const [isCommitting, setIsCommitting] = useState(false);
+    const [upcomingBlocks, setUpcomingBlocks] = useState<Block[]>([]);
 
     const [
         {board, droppingRow, droppingColumn, droppingBlock, droppingShape},
         dispatchBoardState,
     ] = useTetrisBoard();
-
-    const gameTick = useCallback(() => {
-        if(isCommitting)
-        {
-            commitPosition();
-        }else
-        if(hasCollisions(board, droppingShape, droppingRow +1, droppingColumn)){
-            setTickSpeed(TickSpeed.Sliding);
-            setIsCommitting(true);
-        }else {
-            dispatchBoardState({type: 'drop'});
-        }
-    }, [board]);
 
 
     const commitPosition = useCallback(() => {
@@ -42,11 +31,41 @@ export function useTetris() {
         const newBoard = structuredClone(board) as BoardShape;
 
         addShapeToBoard(newBoard, droppingBlock, droppingShape, droppingRow, droppingColumn);
+        
+        const newUpcomingBlocks = structuredClone(upcomingBlocks) as Block[];
+        const newBlock = newUpcomingBlocks.pop() as Block;
+        upcomingBlocks.unshift(getRandomBlock());
+        
         setTickSpeed(TickSpeed.Normal);
-        dispatchBoardState({type: 'commit', newBoard});
+        setUpcomingBlocks(newUpcomingBlocks);
+        dispatchBoardState({type: 'commit', newBoard, newBlock});
         setIsCommitting(false);
     },[board, dispatchBoardState, droppingBlock, droppingColumn, droppingRow, droppingShape])
 
+
+    const gameTick = useCallback(() => {
+    if (isCommitting) {
+      commitPosition();
+    } else if (
+      hasCollisions(board, droppingShape, droppingRow + 1, droppingColumn)
+    ) {
+      setTickSpeed(TickSpeed.Sliding);
+      setIsCommitting(true);
+    } else {
+      dispatchBoardState({ type: 'drop' });
+    }
+  }, [
+    board,
+    commitPosition,
+    dispatchBoardState,
+    droppingColumn,
+    droppingRow,
+    droppingShape,
+    isCommitting,
+  ]);
+
+
+    
     useInterval(() => {
         if(!isPlaying)
         {
@@ -56,7 +75,53 @@ export function useTetris() {
     }, tickSpeed);
 
 
+
+
+    useEffect(() => {
+        if(!isPlaying){
+            return;
+        }
+
+
+        const handleKeyDown = (event: KeyboardEvent) => {
+            if(event.key === 'ArrowDown') {
+                setTickSpeed(TickSpeed.Fast);
+            }
+
+            if(event.key === 'ArrowUp') {
+                dispatchBoardState({type: 'move', isRotating: true})
+            }
+
+            if(event.key === 'ArrowLeft') {
+                dispatchBoardState({type: 'move', isPressingLeft: true})
+            }
+
+            if(event.key === 'ArrowRight') {
+                dispatchBoardState({type: 'move', isPressingRight: true})
+            }
+        }
+
+        const handlekeyUp = (event: KeyboardEvent) => {
+            if(event.key === 'ArrowUp')
+            {
+                setTickSpeed(TickSpeed.Normal);
+            }
+        }
+        document.addEventListener('keydown', handleKeyDown);
+        document.addEventListener('keyup', handlekeyUp);
+        return () => {
+            document.removeEventListener('keydown', handleKeyDown);
+            document.removeEventListener('keyup', handlekeyUp);
+        }
+    },[isPlaying])
+
     const startGame = useCallback(() => {
+        const startingBlocks = [
+            getRandomBlock(),
+            getRandomBlock(),
+            getRandomBlock(),
+        ];
+        setUpcomingBlocks(startingBlocks);
         setIsPlaying(true);
         setTickSpeed(TickSpeed.Normal);
         dispatchBoardState({type: 'start'});
