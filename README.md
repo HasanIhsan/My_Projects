@@ -39,7 +39,7 @@ I'll try to go back to old projects and update them, but for the most part i'll 
 
 ## Authors
 
-  - **Billie Thompson**  -
+  - **Hassan Ihsan**  -
     [CodeMan](https://github.com/HasanIhsan)
 
 
