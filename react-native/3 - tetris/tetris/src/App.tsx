@@ -1,28 +1,30 @@
-import Board from "./components/Board"
-import { EmptyCell } from "./types"
-import { useTetris } from "./hooks/useTetris"
-//const board = Array(20).fill(null).map(() => Array(12).fill(EmptyCell.Empty));
+import Board from './components/Board';
+import UpcomingBlocks from './components/UpcomingBlocks';
+import { useTetris } from './hooks/useTetris';
 
 function App() {
-  const {board, startGame, isPlaying} = useTetris();
-
+  const { board, startGame, stopGame, isPlaying, score, upcomingBlocks } = useTetris();
 
   return (
-    <>
-      <div>
-        <h1>Tetris</h1>
-        <Board currentBoard={board}/>
-        <div className="controls">
-          {isPlaying ? null : (
-            <button onClick={startGame}>New Game</button>
-          )}
-
-        </div>
-      </div>
-
+    <div className="app">
+      <h1>Tetris</h1>
+      <Board currentBoard={board} />
+      <div className="controls">
+        <h2>Score: {score}</h2>
      
-    </>
-  )
+        {isPlaying ? (
+  <>
+    <UpcomingBlocks upcomingBlocks={upcomingBlocks} />
+    <button onClick={stopGame}>Stop Game</button>
+  </>
+) : (
+  <button onClick={startGame}>New Game</button>
+)}
+
+       
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;

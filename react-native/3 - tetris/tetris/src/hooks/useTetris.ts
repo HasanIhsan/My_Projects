@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
-import { getRandomBlock, hasCollisions, useTetrisBoard } from "./useTetrisBoard";
+import { BOARD_HEIGHT, getEmptyBoard, getRandomBlock, hasCollisions, useTetrisBoard } from "./useTetrisBoard";
 import { useInterval } from "./useInterval";
-import { Block, BlockShape, BoardShape } from "../types";
+import { Block, BlockShape, BoardShape, EmptyCell, SHAPES } from "../types";
 
 enum TickSpeed {
     Normal = 800,
@@ -14,12 +14,30 @@ export function useTetris() {
     const [tickSpeed, setTickSpeed] = useState<TickSpeed | null>(null);
     const [isCommitting, setIsCommitting] = useState(false);
     const [upcomingBlocks, setUpcomingBlocks] = useState<Block[]>([]);
+    const [score, setScore] = useState(0);
 
     const [
         {board, droppingRow, droppingColumn, droppingBlock, droppingShape},
         dispatchBoardState,
     ] = useTetrisBoard();
 
+    const startGame = useCallback(() => {
+        const startingBlocks = [
+          getRandomBlock(),
+          getRandomBlock(),
+          getRandomBlock(),
+        ];
+        setScore(0);
+        setUpcomingBlocks(startingBlocks);
+        setIsCommitting(false);
+        setIsPlaying(true);
+        setTickSpeed(TickSpeed.Normal);
+        dispatchBoardState({ type: 'start' });
+    }, [dispatchBoardState]);
+    
+    const stopGame = useCallback(() => {
+        setIsPlaying(false);
+    }, [dispatchBoardState]);
 
     const commitPosition = useCallback(() => {
         if(!hasCollisions(board, droppingShape, droppingRow +1, droppingColumn)) {
@@ -32,13 +50,34 @@ export function useTetris() {
 
         addShapeToBoard(newBoard, droppingBlock, droppingShape, droppingRow, droppingColumn);
         
+        let numCleared = 0;
+        for (let row = BOARD_HEIGHT - 1; row >= 0; row--) {
+          if (newBoard[row].every((entry) => entry !== EmptyCell.Empty)) {
+            numCleared++;
+            newBoard.splice(row, 1);
+          }
+        }
+        
         const newUpcomingBlocks = structuredClone(upcomingBlocks) as Block[];
         const newBlock = newUpcomingBlocks.pop() as Block;
         upcomingBlocks.unshift(getRandomBlock());
         
+
+        if (hasCollisions(board, SHAPES[newBlock].shape, 0, 3)) {
+            setIsPlaying(false);
+            setTickSpeed(null);
+          } else {
+            setTickSpeed(TickSpeed.Normal);
+        }
+          
         setTickSpeed(TickSpeed.Normal);
         setUpcomingBlocks(newUpcomingBlocks);
-        dispatchBoardState({type: 'commit', newBoard, newBlock});
+        setScore((prevScore) => prevScore + getPoints(numCleared));
+        dispatchBoardState({
+            type: 'commit',
+            newBoard: [...getEmptyBoard(BOARD_HEIGHT - newBoard.length), ...newBoard],
+            newBlock,
+          });
         setIsCommitting(false);
     },[board, dispatchBoardState, droppingBlock, droppingColumn, droppingRow, droppingShape])
 
@@ -115,17 +154,8 @@ export function useTetris() {
         }
     },[isPlaying])
 
-    const startGame = useCallback(() => {
-        const startingBlocks = [
-            getRandomBlock(),
-            getRandomBlock(),
-            getRandomBlock(),
-        ];
-        setUpcomingBlocks(startingBlocks);
-        setIsPlaying(true);
-        setTickSpeed(TickSpeed.Normal);
-        dispatchBoardState({type: 'start'});
-    }, [dispatchBoardState]);
+     
+    
     
 
     const renderedBoard = structuredClone(board) as BoardShape;
@@ -144,10 +174,32 @@ export function useTetris() {
     return {
         board: renderedBoard,
         startGame,
+        stopGame,
         isPlaying,
-    }
+        score,
+        upcomingBlocks,
+      };
 
 }
+
+
+function getPoints(numCleared: number): number {
+    switch (numCleared) {
+      case 0:
+        return 0;
+      case 1:
+        return 100;
+      case 2:
+        return 300;
+      case 3:
+        return 500;
+      case 4:
+        return 800;
+      default:
+        throw new Error('Unexpected number of rows cleared');
+    }
+  }
+
 
 function addShapeToBoard (
     board: BoardShape,
