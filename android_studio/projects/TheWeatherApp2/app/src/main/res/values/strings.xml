@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TheWeatherApp</string>
+    <string name="loc">, Ontario</string>
+    <string name="location">Location: </string>
+    <string name="cur">Current Temperature: </string>
+    <string name="max">Maximum Temperature: </string>
+    <string name="min">Minimum Temperature: </string>
+    <string name="desc">Description: </string>
+    <string name="precipitation">Probability of Precipitation (POP): </string>
+    <string name="go">Go</string>
+    <string name="city">City</string>
+    <string name="no_weather">No Weather Found</string>
+    <string name="deg_c"> \u2103</string>
+</resources>
