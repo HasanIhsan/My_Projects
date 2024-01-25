@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HassanIhsanINFO5126InClass</string>
+    <string-array name="colors">
+        <item>White</item>
+        <item>LightGray</item>
+    </string-array>
+    <string name="selected_text">default</string>
+
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="view_result">View The Result</string>
+    <string name="close">Close</string>
+    <string name="restore">Restore Color to default (Red)</string>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DataBindingMVVM1</string>
+    <string name="change">Change Person</string>
+</resources>

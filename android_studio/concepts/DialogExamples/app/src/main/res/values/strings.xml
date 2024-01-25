@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DialogExamples</string>
+    <string name="simple">Simple Dialog Fragment</string>
+    <string name="calendar">Calendar Dialog</string>
+    <string name="confirm">Confirmation Dialog Fragment</string>
+    <string name="choice">Please make a choice</string>
+    <string name="simpleheader">Simple Message in a Dialog</string>
+    <string name="simpletext">Simple Text in a Dialog</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
