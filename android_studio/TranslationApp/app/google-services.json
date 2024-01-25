@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "188488566902",
+    "project_id": "login-register-firebase-19b4d",
+    "storage_bucket": "login-register-firebase-19b4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188488566902:android:3dc5827e175a2edb40f757",
+        "android_client_info": {
+          "package_name": "com.hassanihsan.translationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB45Uad5OUxFeKOK2jKWF6qMH-lBny4DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
