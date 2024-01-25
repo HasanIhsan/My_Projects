@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">2DAnimation</string>
+    <string name="demo">2D Animation Demo</string>
+    <string name="open">Open Tween Animation Activity</string>
+    <string name="returntomain">Return to Main Activity</string>
+    <string name="grow">Grow</string>
+    <string name="spin">Spin</string>
+    <string name="move">Move</string>
+    <string name="shake">Shake</string>
+    <string name="transparency">Transparency</string>
+</resources>

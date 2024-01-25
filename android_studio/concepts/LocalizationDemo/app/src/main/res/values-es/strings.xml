@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lang">Spanish</string>
+    <string name="hello">Hola</string>
+    <string name="goodbye">Adiós</string>
+    <string name="thankyou">Gracias</string>
+    <string name="howareyou">Cómo estás</string>
+</resources>

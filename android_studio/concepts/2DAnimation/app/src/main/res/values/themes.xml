@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme._2DAnimation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Enable Window transition -->
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- Enable Window enter and Exit transition -->
+        <item name="android:windowEnterTransition">@transition/slide_transition</item>
+        <item name="android:windowExitTransition">@transition/slide_transition</item>
+    </style>
+
+    <style name="Theme._2DAnimation" parent="Base.Theme._2DAnimation" />
+
+
+</resources>
