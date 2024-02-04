@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: rgb(18, 132, 231);
+}
+
+#welcome-section {
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project-tile {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#profile-link {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;text-decoration: none;
+}
+
+/*media query for small screen*/
+@media screen and (max-width: 600px) {
+    #navbar {
+        padding: 5px;
+    }
+    #navbar li {
+        margin-right: 10px;
+    }
+    #welcome-section {
+        padding: 30px;
+    }
+    
+    .project-tile {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    #profile-link {
+        padding: 5px;
+    }
+}
+
