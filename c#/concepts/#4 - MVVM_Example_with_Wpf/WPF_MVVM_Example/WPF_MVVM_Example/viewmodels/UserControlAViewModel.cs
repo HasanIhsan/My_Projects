@@ -11,17 +11,19 @@ namespace WPF_MVVM_Example.viewmodels
     public class UserControlAViewModel : ViewModelBase
     {
         private RelayCommand _navigateToBCommand;
+        
 
         public RelayCommand NavigateToBCommand
         {
             get
             {
-                return _navigateToBCommand ?? (_navigateToBCommand = new RelayCommand(NavigateToB));
+                return _navigateToBCommand ?? (_navigateToBCommand = new RelayCommand(Navigate.GetNavigationAction("B")));
             }
         }
 
         private void NavigateToB()
         {
+           
             // Implement navigation logic to UserControlB
             NavigationService.NavigateTo("UserControlB");
         }

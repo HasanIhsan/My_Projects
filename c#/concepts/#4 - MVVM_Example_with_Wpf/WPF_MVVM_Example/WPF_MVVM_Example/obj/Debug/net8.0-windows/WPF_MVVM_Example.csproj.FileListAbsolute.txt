@@ -24,5 +24,4 @@ C:\Users\yuki\Desktop\code_stuff\My_Projects\c#\concepts\#4 - MVVM_Example_with_
 C:\Users\yuki\Desktop\code_stuff\My_Projects\c#\concepts\#4 - MVVM_Example_with_Wpf\WPF_MVVM_Example\WPF_MVVM_Example\obj\Debug\net8.0-windows\WPF_MVVM_Example.genruntimeconfig.cache
 C:\Users\yuki\Desktop\code_stuff\My_Projects\c#\concepts\#4 - MVVM_Example_with_Wpf\WPF_MVVM_Example\WPF_MVVM_Example\obj\Debug\net8.0-windows\ref\WPF_MVVM_Example.dll
 C:\Users\yuki\Desktop\code_stuff\My_Projects\c#\concepts\#4 - MVVM_Example_with_Wpf\WPF_MVVM_Example\WPF_MVVM_Example\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\yuki\Desktop\code_stuff\My_Projects\c#\concepts\#4 - MVVM_Example_with_Wpf\WPF_MVVM_Example\WPF_MVVM_Example\obj\Debug\net8.0-windows\resourceFile\ViewModelDataTemplates.baml
 C:\Users\yuki\Desktop\code_stuff\My_Projects\c#\concepts\#4 - MVVM_Example_with_Wpf\WPF_MVVM_Example\WPF_MVVM_Example\obj\Debug\net8.0-windows\ViewModelDataTemplates.baml
