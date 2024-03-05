@@ -38,3 +38,6 @@ Thumbs.db
 
 # Ignore the "node_modules" folder
 node_modules/
+
+# ignore .vs folders
+.vs
