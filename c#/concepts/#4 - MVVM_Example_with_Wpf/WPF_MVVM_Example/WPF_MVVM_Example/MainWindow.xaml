@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_MVVM_Example"
         xmlns:views="clr-namespace:WPF_MVVM_Example.Screens"
-        xmlns:viewmodels="clr-namespace:WPF_MVVM_Example.viewmodels"
+       
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <DataTemplate DataType="{x:Type viewmodels:UserControlAViewModel}">
-            <views:UserControlA />
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type viewmodels:UserControlBViewModel}">
-            <views:UserControlB />
-        </DataTemplate>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ViewModelDataTemplates.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Window.Resources>
     <Grid>
         <ContentControl Content="{Binding CurrentViewModel}" />

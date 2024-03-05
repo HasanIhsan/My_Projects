@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF_MVVM_Example")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c44379b7229f04b78214c963c8ac03b952177098")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF_MVVM_Example")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF_MVVM_Example")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
