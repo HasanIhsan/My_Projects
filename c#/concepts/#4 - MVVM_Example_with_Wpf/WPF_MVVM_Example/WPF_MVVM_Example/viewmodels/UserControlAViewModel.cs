@@ -17,15 +17,11 @@ namespace WPF_MVVM_Example.viewmodels
         {
             get
             {
-                return _navigateToBCommand ?? (_navigateToBCommand = new RelayCommand(Navigate.GetNavigationAction("B")));
+                return _navigateToBCommand ?? (_navigateToBCommand = new RelayCommand(NavigationHandler.GetNavigationAction("B")));
+       
             }
         }
 
-        private void NavigateToB()
-        {
-           
-            // Implement navigation logic to UserControlB
-            NavigationService.NavigateTo("UserControlB");
-        }
+       
     }
 }

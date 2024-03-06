@@ -16,14 +16,10 @@ namespace WPF_MVVM_Example.viewmodels
         {
             get
             {
-                return _navigateToACommand ?? (_navigateToACommand = new RelayCommand(NavigateToA));
+                return _navigateToACommand ?? (_navigateToACommand = new RelayCommand(NavigationHandler.GetNavigationAction("A")));
             }
         }
 
-        private void NavigateToA()
-        {
-            // Implement navigation logic to UserControlA
-            NavigationService.NavigateTo("UserControlA");
-        }
+      
     }
 }

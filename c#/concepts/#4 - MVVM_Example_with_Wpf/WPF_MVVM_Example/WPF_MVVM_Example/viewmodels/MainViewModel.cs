@@ -10,6 +10,7 @@ namespace WPF_MVVM_Example.viewmodels
     public class MainViewModel :ViewModelBase
     {
         private ViewModelBase _currentViewModel;
+        private NavigationHandler _navigationHandler;
 
         public ViewModelBase CurrentViewModel
         {
@@ -23,25 +24,17 @@ namespace WPF_MVVM_Example.viewmodels
 
         public MainViewModel()
         {
-            NavigationService._Navigate += Navigate;
+             
+            _navigationHandler = new NavigationHandler(this);
+
+            NavigationService._Navigate += _navigationHandler.Navigate;
 
             //set inital usercontrol;
-            Navigate("UserControlA");
+            //Navigate("UserControlA");
+            _navigationHandler.Navigate("UserControlA");
         }
 
 
-        private void Navigate(string userControlName)
-        {
-            switch (userControlName)
-            {
-                case "UserControlA":
-                    CurrentViewModel = new UserControlAViewModel();
-                    break;
-                case "UserControlB":
-                    CurrentViewModel = new UserControlBViewModel();
-                    break;
-                    // Add more cases for additional UserControls if needed
-            }
-        }
+     
     }
 }
