@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="iamge\2.png" />
+    <None Remove="RippleEffect.ps" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fx11_desktop_2019" Version="2022.8.18.1" />
+    <PackageReference Include="LiteWare.Wpf.ShaderEffects" Version="1.0.0" />
+    <PackageReference Include="Microsoft.HLSL.CSharpVB" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="iamge\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="RippleEffect.ps" />
+  </ItemGroup>
+
+</Project>

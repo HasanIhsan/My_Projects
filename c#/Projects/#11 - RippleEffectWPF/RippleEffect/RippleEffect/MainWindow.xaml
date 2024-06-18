@@ -1,0 +1,22 @@
+﻿<Window x:Class="RippleEffect.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RippleEffect"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="ImageControl" Source="./iamge/2.png" Stretch="Fill" Margin="152,95,202,68">
+            <Image.Effect>
+                <local:RippleEffectShader x:Name="RippleEffect"
+                                    Center="0.5,0.5"
+                                    Amplitude="0.05"
+                                    Frequency="30" />
+            </Image.Effect>
+        </Image>
+        <Image x:Name="ImageControl2" Source="./iamge/2.png" Stretch="Fill" Margin="40,95,594,253">
+             
+        </Image>
+    </Grid>
+</Window>

@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RippleEffect/1.0.0": {
+        "dependencies": {
+          "LiteWare.Wpf.ShaderEffects": "1.0.0",
+          "Microsoft.HLSL.CSharpVB": "1.0.2",
+          "fx11_desktop_2019": "2022.8.18.1"
+        },
+        "runtime": {
+          "RippleEffect.dll": {}
+        }
+      },
+      "fx11_desktop_2019/2022.8.18.1": {},
+      "LiteWare.Wpf.ShaderEffects/1.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/LiteWare.Wpf.ShaderEffects.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.HLSL.CSharpVB/1.0.2": {}
+    }
+  },
+  "libraries": {
+    "RippleEffect/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "fx11_desktop_2019/2022.8.18.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q9PVAE+AuXdXw0nVV5pC3Yr0slLSF1lobpJlWEzkUZEVx5AyofjvGxJyyek/rzXIZ2YFcMzE/Q0EbqW8dUORtQ==",
+      "path": "fx11_desktop_2019/2022.8.18.1",
+      "hashPath": "fx11_desktop_2019.2022.8.18.1.nupkg.sha512"
+    },
+    "LiteWare.Wpf.ShaderEffects/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OtJfXe38E2CpGQiThgWPCNbNVLgeJIr6UHt/C+dvLpYnm2XHdsPAuBGh7iVBNY790rG/j1tMLWduJjF4iMtHIQ==",
+      "path": "liteware.wpf.shadereffects/1.0.0",
+      "hashPath": "liteware.wpf.shadereffects.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.HLSL.CSharpVB/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ASNg51e8qSzWGUC7vdlyvIobDJizxmflQxOYC421ogg4jWTkVm3kn3rinLozfXJVPPskL+/cRqy+RIMp1re0GQ==",
+      "path": "microsoft.hlsl.csharpvb/1.0.2",
+      "hashPath": "microsoft.hlsl.csharpvb.1.0.2.nupkg.sha512"
+    }
+  }
+}

@@ -13,8 +13,8 @@ def add_views(url, num_views):
         # simulate view by refreshing
         for _ in range(int(num_views)):
             driver.refresh()
-            #time.sleep(5) # pause for 5 seconds ()
-            time.sleep(20 * 60)  # pause for 20 minutes
+            time.sleep(70) # pause for 5 seconds ()
+            #time.sleep(20 * 60)  # pause for 20 minutes
             
         print(f"{num_views} views added")
         

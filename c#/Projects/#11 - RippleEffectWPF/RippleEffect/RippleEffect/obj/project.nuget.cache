@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+lWw8Wf7HFTUlRpCmhCygsjRKQx8MSj5+CsszYV/8uzYslNBHk+KxwYBQHnpPS98FrOKPi97HUole1y0Y3Xk9g==",
+  "success": true,
+  "projectFilePath": "D:\\Code_Stuff\\projects\\code_stuff\\My_Projects\\c#\\Projects\\#11 - RippleEffectWPF\\RippleEffect\\RippleEffect\\RippleEffect.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ihsan\\.nuget\\packages\\fx11_desktop_2019\\2022.8.18.1\\fx11_desktop_2019.2022.8.18.1.nupkg.sha512",
+    "C:\\Users\\ihsan\\.nuget\\packages\\liteware.wpf.shadereffects\\1.0.0\\liteware.wpf.shadereffects.1.0.0.nupkg.sha512",
+    "C:\\Users\\ihsan\\.nuget\\packages\\microsoft.hlsl.csharpvb\\1.0.2\\microsoft.hlsl.csharpvb.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

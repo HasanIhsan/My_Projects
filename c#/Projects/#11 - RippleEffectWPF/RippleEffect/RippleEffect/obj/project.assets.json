@@ -1,0 +1,167 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "fx11_desktop_2019/2022.8.18.1": {
+        "type": "package"
+      },
+      "LiteWare.Wpf.ShaderEffects/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/LiteWare.Wpf.ShaderEffects.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/LiteWare.Wpf.ShaderEffects.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Microsoft.HLSL.CSharpVB/1.0.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.HLSL.CSharpVB.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "fx11_desktop_2019/2022.8.18.1": {
+      "sha512": "Q9PVAE+AuXdXw0nVV5pC3Yr0slLSF1lobpJlWEzkUZEVx5AyofjvGxJyyek/rzXIZ2YFcMzE/Q0EbqW8dUORtQ==",
+      "type": "package",
+      "path": "fx11_desktop_2019/2022.8.18.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/native/fx11_desktop_2019.targets",
+        "docs/HISTORY.md",
+        "docs/README.md",
+        "docs/SECURITY.md",
+        "fx11_desktop_2019.2022.8.18.1.nupkg.sha512",
+        "fx11_desktop_2019.nuspec",
+        "images/icon.jpg",
+        "include/d3dx11effect.h",
+        "native/lib/Win32/Debug/Effects11d.lib",
+        "native/lib/Win32/Debug/Effects11d.pdb",
+        "native/lib/Win32/Release/Effects11.lib",
+        "native/lib/Win32/Release/Effects11.pdb",
+        "native/lib/x64/Debug/Effects11d.lib",
+        "native/lib/x64/Debug/Effects11d.pdb",
+        "native/lib/x64/Release/Effects11.lib",
+        "native/lib/x64/Release/Effects11.pdb"
+      ]
+    },
+    "LiteWare.Wpf.ShaderEffects/1.0.0": {
+      "sha512": "OtJfXe38E2CpGQiThgWPCNbNVLgeJIr6UHt/C+dvLpYnm2XHdsPAuBGh7iVBNY790rG/j1tMLWduJjF4iMtHIQ==",
+      "type": "package",
+      "path": "liteware.wpf.shadereffects/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.1/LiteWare.Wpf.ShaderEffects.dll",
+        "liteware.wpf.shadereffects.1.0.0.nupkg.sha512",
+        "liteware.wpf.shadereffects.nuspec"
+      ]
+    },
+    "Microsoft.HLSL.CSharpVB/1.0.2": {
+      "sha512": "ASNg51e8qSzWGUC7vdlyvIobDJizxmflQxOYC421ogg4jWTkVm3kn3rinLozfXJVPPskL+/cRqy+RIMp1re0GQ==",
+      "type": "package",
+      "path": "microsoft.hlsl.csharpvb/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/FxCompile.cs",
+        "build/Microsoft.HLSL.CSharpVB.targets",
+        "microsoft.hlsl.csharpvb.1.0.2.nupkg.sha512",
+        "microsoft.hlsl.csharpvb.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "LiteWare.Wpf.ShaderEffects >= 1.0.0",
+      "Microsoft.HLSL.CSharpVB >= 1.0.2",
+      "fx11_desktop_2019 >= 2022.8.18.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ihsan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Code_Stuff\\projects\\code_stuff\\My_Projects\\c#\\Projects\\#11 - RippleEffectWPF\\RippleEffect\\RippleEffect\\RippleEffect.csproj",
+      "projectName": "RippleEffect",
+      "projectPath": "D:\\Code_Stuff\\projects\\code_stuff\\My_Projects\\c#\\Projects\\#11 - RippleEffectWPF\\RippleEffect\\RippleEffect\\RippleEffect.csproj",
+      "packagesPath": "C:\\Users\\ihsan\\.nuget\\packages\\",
+      "outputPath": "D:\\Code_Stuff\\projects\\code_stuff\\My_Projects\\c#\\Projects\\#11 - RippleEffectWPF\\RippleEffect\\RippleEffect\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ihsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "LiteWare.Wpf.ShaderEffects": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Microsoft.HLSL.CSharpVB": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "fx11_desktop_2019": {
+            "target": "Package",
+            "version": "[2022.8.18.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
