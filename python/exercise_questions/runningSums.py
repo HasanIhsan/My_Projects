@@ -5,7 +5,7 @@
 
 # takes the perivos numbers and adds them 
 
-
+#note: this was mainly help of google, i didn't really do this
 def runningsums(arr ):
     arr2 = [0] * len(arr)
     
