@@ -4,6 +4,9 @@
 
 #basically add all the nums and return the largest sum
 
+
+#note: this was acually done by me!
+#i needed help on adding the sums in the array so google helped
 def richcustomer(arr):
     total = 0
     min = 0
