@@ -13,7 +13,7 @@ def fizzbuzz(lenght):
         arr[i] = i + 1
         
         #int_array = [int(num) for num in arr]
-        if arr[i] % 3 | 5 == 0:
+        if arr[i] % 3 == 0 and arr[i] % 5 == 0:
             arr[i] = "fizzbuzz"
         elif arr[i] % 3 == 0:
             arr[i] = "fizz"
@@ -26,5 +26,5 @@ def fizzbuzz(lenght):
 
 if __name__ == "__main__":
     
-    num = 5
+    num = 15
     print(fizzbuzz(num))
