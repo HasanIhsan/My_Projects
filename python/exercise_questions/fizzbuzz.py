@@ -20,11 +20,11 @@ def fizzbuzz(lenght):
         elif arr[i] % 5 == 0:
             arr[i] = "buzz"
         else:
-            arr[i] = f"{i + 1}"
+            arr[i] = f"{i + 1 }"
     
     return arr
 
 if __name__ == "__main__":
     
-    num = 15
+    num = 3
     print(fizzbuzz(num))
