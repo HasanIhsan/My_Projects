@@ -1,0 +1,47 @@
+﻿<Window x:Class="simple_puzzle_game.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="123"/>
+                <RowDefinition Height="123"/>
+                <RowDefinition Height="123"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="119"/>
+                <ColumnDefinition Width="119"/>
+                <ColumnDefinition Width="119"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Name="red1" Grid.Row="0" Grid.Column="0" Source="./Assets/red.png" Stretch="Fill"
+                   MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp" />
+            <Image Name="grid2" Grid.Row="0" Grid.Column="1" Source="./Assets/grid.png" Stretch="Fill" 
+                     MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp"/>
+            <Image Name="grid3" Grid.Row="0" Grid.Column="2" Source="./Assets/grid.png" Stretch="Fill" 
+                     MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp"/>
+
+            <Image Name="grid4" Grid.Row="1" Grid.Column="0" Source="./Assets/grid.png" Stretch="Fill" 
+                     MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp"/>
+            <Image Name="grid5" Grid.Row="1" Grid.Column="1" Source="./Assets/grid.png" Stretch="Fill"
+                     MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp"/>
+            <Image Name="grid6" Grid.Row="1" Grid.Column="2" Source="./Assets/grid.png" Stretch="Fill" 
+                     MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp"/>
+
+            <Image Name="grid7" Grid.Row="2" Grid.Column="0" Source="./Assets/grid.png" Stretch="Fill" 
+                     MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp"/>
+            <Image Name="grid8" Grid.Row="2" Grid.Column="1" Source="./Assets/grid.png" Stretch="Fill" 
+                     MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp"/>
+            <Image Name="red2" Grid.Row="2" Grid.Column="2" Source="./Assets/red.png" Stretch="Fill"
+                   MouseDown="Tile_MouseDown" MouseMove="Tile_MouseMove" MouseUp="Tile_MouseUp" />
+        </Grid>
+
+        <Button Content="New Game" Width="244" Height="61"
+                DockPanel.Dock="Bottom" Click="NewGameButton_Click" />
+    </DockPanel>
+</Window>
