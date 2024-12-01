@@ -5,7 +5,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_holistic = mp.solutions.holistic
 mp_face_mesh = mp.solutions.face_mesh
 
-cap = cv2.VideoCapture(1) # different webcam
+cap = cv2.VideoCapture(0) # different webcam
 # Initiate holistic model
 with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
     
